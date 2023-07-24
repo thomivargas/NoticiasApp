@@ -4,7 +4,7 @@ import ListadoNoticias from './components/ListadoNoticias';
 import { NoticiasProvider } from './context/NoticiasProvider';
 
 function App() {
-
+  console.log("API Key:", import.meta.env.VITE_API_KEY);
   return (
     <NoticiasProvider>
       <Container>
